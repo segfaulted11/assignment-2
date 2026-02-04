@@ -127,3 +127,49 @@ nav ul{
     line-height: 40px;
 }
 /* number ends */
+
+/* featured starts */
+
+.featured{
+    height: 500px;
+    background-color: chocolate;
+    padding-top: 80px;
+}
+.lol{
+    text-align: center;
+    color: beige;
+    margin-bottom: 20px;
+}
+.featured-card-container{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 25px;
+
+}
+.featured-card-container .card{
+    width: 300px;
+    height: 320px;
+    background-color: #1A0A2D;
+    border-radius: 20px;
+
+}
+.featured-card-container .card h3{
+    color: blanchedalmond;
+}
+.featured-card-container .card p{
+    color: rgb(139, 122, 122);
+}
+.featured-card-container .card span{
+    color: rgb(28, 128, 28);
+}
+.featured-card-container .card>*{
+    margin-bottom: 10px;
+}
+.ifr{
+    width:"100%"; 
+    height:"50%";
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+    /* featured ends */
