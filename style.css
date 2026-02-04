@@ -132,7 +132,6 @@ nav ul{
 
 .featured{
     height: 500px;
-    background-color: chocolate;
     padding-top: 80px;
 }
 .lol{
@@ -150,7 +149,7 @@ gap: 25px;
 .featured-card-container .card{
     width: 300px;
     height: 320px;
-    background-color: #1A0A2D;
+    background-color: #270a49;
     border-radius: 20px;
 
 }
@@ -173,3 +172,38 @@ gap: 25px;
     border-top-right-radius: 20px;
 }
     /* featured ends */
+
+
+    /* host starts */
+    .host{
+        height: 400px;
+    }
+.host h1{
+    text-align: center;
+    color: bisque;
+    margin-bottom: 40px;
+}
+.host .host-card{
+    background-color: #270a49;
+    width: 900px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 20px ;
+}
+.host-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.host-content p{
+    margin-bottom: 18px;
+    color: rgb(116, 105, 105);
+    margin-left: 10px;
+}
+.host-icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+/* host ends */
