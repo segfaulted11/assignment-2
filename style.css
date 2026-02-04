@@ -207,3 +207,37 @@ gap: 25px;
     align-items: center;
 }
 /* host ends */
+
+/* footer starts */
+.footer{
+    height: 315px;
+    background-image: url(./img/footer-bg.png);
+    position: relative;
+}
+.footer ul li, .footer h1{
+    color: bisque;
+    list-style-type: none;
+}
+.footer h1{
+    margin-bottom: 20px;
+    font-size: 5rem;
+}
+.footer ul{
+    margin-bottom: 20px;
+}
+.footer p{
+    color: rgb(114, 102, 102);
+}
+.footer-icons{
+    display: flex;
+    gap: 30px;
+}
+.footer-div{
+    position: absolute;
+    top: 100px;
+    left: 530px;
+}
+.footer-div p{
+    text-align: center;
+}
+/* footer ends */
